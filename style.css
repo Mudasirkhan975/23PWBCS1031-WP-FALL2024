@@ -1,0 +1,277 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+}
+.item1{
+    width: 28%;
+    height: auto;
+}
+.item2{
+    margin-top: 40px;
+}
+.item3{
+    margin-top: 40px;
+}
+#logo{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 20%;
+}
+#logo a{
+    text-decoration:none;
+    color:rgb(245, 49, 10);
+    transition:1s
+}
+#logo a:hover{
+    color:white;
+}
+#menu{
+    padding:15px;
+    text-decoration:none;
+}
+#menu a{
+    border:1px solid gray;
+    border-radius: 5%;
+    margin:5px; 
+    padding:10px;
+    text-decoration:none;
+    background-color:red;
+    color:white;
+    transition:1s;
+}	
+#menu a:hover{
+    background-color:white;
+    color:black;
+
+}
+#story{
+    text-align: left;
+    background-color: white;
+}
+#service{
+    background-color: white;
+}
+#heading{
+    text-align: center;
+}
+#first{
+    text-align: center;
+    width: 33%;
+}
+#first h2{
+    color: red;
+}
+#second{
+    text-align: center;
+    width: 33%;
+}
+#second h2{
+    color: red;
+}
+#third{
+    text-align: center;
+    width: 33%;
+}
+#third h2{
+    color: red;
+}
+#block{
+    display: flex;
+}
+#footer{
+    background-color: #f74421;
+    display: flex;
+    margin-top: 30px;
+}
+#foot1{
+    text-align: center;
+    width: 33%;
+}
+#foot1 a{
+    text-decoration: none;
+    color: rgb(53, 86, 252);
+}
+#foot2{
+    text-align: center;
+    width: 33%;
+}
+#foot2 a{
+    text-decoration: none;
+    color: rgb(53, 86, 252);
+}
+#foot3{
+    text-align: center;
+    width: 33%;
+}
+#foot3 a{
+    text-decoration: none;
+    color: rgb(53, 86, 252);
+}
+/*workout page and nutrition page*/
+#heade {
+    background-color:#fd5f3f;
+    padding: 20px;
+    text-align: center;
+}
+#heade h1 a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border: 1px solid gray;
+    padding: 8px;
+    margin: 110px;
+    border-radius: 5%;
+    transition: 1s;
+}
+#heade h1 a:hover{
+    background-color: white;
+    color: black;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+nav a {
+    color: #266ef5;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+}
+.routine {
+    background: white;
+    text-align: center;
+    box-shadow:  7px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.routine li{
+    list-style: none;
+}
+.routine h2 {
+    color: #35424a;
+}
+.routine img {
+    border-radius: 10%;
+    width: 30%;
+    height: 200px;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #f74421;
+    color: #ffffff;
+}
+/*photos page*/
+.routine iframe{
+    border-radius: 10%;
+}
+.routine video{
+    border-radius: 10%;
+}
+/*contact page*/
+#contact{
+    background-color:  rgb(254, 225, 225);
+}
+#name{
+    width: 50%;
+    height: 30px;
+}
+#email{
+    width: 50%;
+    height: 30px;
+}
+#subject{
+    width: 50%;
+    height: 30px;
+}
+#list{
+    width: 30%;
+    height: 30px;
+}
+#message {
+    width: 50%;
+}
+button {
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
+section h3 a{
+    text-decoration: none;
+}
+section ul li a{
+    text-decoration: none;
+}
+.nav {
+    display: none; /* Initially hide the menu */
+    position: absolute;
+    top: 50px; /* Adjust based on your design */
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+#contac{
+    margin-left: 27%;
+}
+@media screen and (max-width: 800px){
+    #menu{
+        position:absolute;
+        margin-top:37px;
+        padding:1px;
+        text-decoration:none;
+    }
+    #menu a{
+        border:1px solid gray;
+        border-radius: 5%;
+        margin:0px; 
+        padding:0px;
+        text-decoration:none;
+        background-color:red;
+        color:white;
+        transition:1s;
+    }	
+    #menu a:hover{
+        background-color:white;
+        color:black;
+    
+    }
+#heade h1 a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border: 1px solid gray;
+    padding: 3px;
+    margin: 4px;
+    border-radius: 5%;
+    transition: 1s;
+}
+#heade h1 a:hover{
+    background-color: white;
+    color: black;
+}
+.item3{
+    display: none;
+}
+.item2{
+    margin-top: 0px;
+}
+.item1{
+    width: 25%;
+}
+}
