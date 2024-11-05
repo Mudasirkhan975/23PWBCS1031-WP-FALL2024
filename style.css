@@ -262,7 +262,7 @@ section ul li a{
     
     }
     p{
-            font-size: 90%;
+            font-size: 80%;
     }
     #heade h1{
         font-size: large;
@@ -298,4 +298,14 @@ iframe{
 video{
     height: 200px;
     border-radius: 0%;
-}}
+}
+#foot1 h1{
+font-size: 110%;
+}
+#foot2 h1{
+    font-size: 110%;
+}
+#foot3 h1{
+    font-size: 110%;
+}
+}
